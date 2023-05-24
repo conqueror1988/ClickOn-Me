@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    text-align: center;
+}
+h1{
+    background: dimgray;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+#btn{
+    padding: 15px 30px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: dimgray;
+    margin-top: 20px;
+    font-size: 1.5em;
+    initial-letter: 3px;
+}
